@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useState } from "react";
-import Card from "./components/card";
+import Card from "./components/cardOrignal";
 const App = () => {
   const [search , setSearch] = useState("");
   const [song , setSong] = useState([]);
