@@ -10,7 +10,7 @@ if(!search) return;
 try{
   setLoading(true)
 
-    const response = await axios.get(`https://itunes.apple.com/search?term=${search}&media=music&limit=100`);
+    const response = await axios.get(`https://itunes.apple.com/search?term=${search}&media=music&limit=20`);
     console.log(response);
     setSong(response.data.results)
   setLoading(false)    
